@@ -159,7 +159,7 @@
 							<h5>Where You Go</h5>
 							<p>Every corner of the country is rich in religious and cultural diversity. You can plan for Varanasi, Mathura, Dwarka, Rishikesh, Bhubaneshwar, Puri, Konarak, Panchkula and much more.</p>
 							<h5>What We Offer</h5>
-							<p>You can customize your interests like shopping, trekking, wildlife, festivals, temples, tribal areas and much more. At the best price you’ll get hotels & cuisines’.</p> <b>Come On! Join Polatok.</b>
+							<p>You can customize your interests like shopping, trekking, wildlife, festivals, temples, tribal areas and much more. At the best price youâ€™ll get hotels & cuisinesâ€™.</p> <b>Come On! Join Polatok.</b>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -189,9 +189,9 @@
 							<button type="button" class="close" data-dismiss="modal">&times;</button>							
 						</div>
 						<div class="modal-body">
-							<p>India is incredibly rich in wildlife and birds. There are 103 national parks and 537 wildlife sanctuaries in India, out of which 37 national parks and 137 wildlife sanctuaries are located in India’s eastern belt. Polatok don’t just create journeys , we create memories.</p>
+							<p>India is incredibly rich in wildlife and birds. There are 103 national parks and 537 wildlife sanctuaries in India, out of which 37 national parks and 137 wildlife sanctuaries are located in Indiaâ€™s eastern belt. Polatok donâ€™t just create journeys , we create memories.</p>
 							<h5>Destinations</h5>
-							<p>Northeast India deserves special mention for abundant flora and fauna .Supporting the world’s highest density of Royal Bengal Tiger (Kajiranga National Park) and the one horned Rhinoceros (Pobitora Wildlife Sanctuary). Northeast India is also home to more than 850 types of birds. Polatok will serve you to know the huge bio-diversity in country.</p>
+							<p>Northeast India deserves special mention for abundant flora and fauna .Supporting the worldâ€™s highest density of Royal Bengal Tiger (Kajiranga National Park) and the one horned Rhinoceros (Pobitora Wildlife Sanctuary). Northeast India is also home to more than 850 types of birds. Polatok will serve you to know the huge bio-diversity in country.</p>
 							<h5>Services</h5>
 							<p>Polatok will provide you 24 *7 support with your needs. Vehicles will be provided according to your choice. Our guide will take you to some unique experiences. Contact us to start an amazing journey with Polatok</p>
 						</div>
@@ -228,7 +228,7 @@
 							<button type="button" class="close" data-dismiss="modal">&times;</button>							
 						</div>
 						<div class="modal-body">
-							<p>Kolkata might seem to have enough life and action to keep any traveler interested, it is surrounded by some wonderful natural and historic sights, which shouldn’t be missed. Polatok provides you customized road trips from Sunderban to Darjeeling.</p>
+							<p>Kolkata might seem to have enough life and action to keep any traveler interested, it is surrounded by some wonderful natural and historic sights, which shouldnâ€™t be missed. Polatok provides you customized road trips from Sunderban to Darjeeling.</p>
 							<h5>Key Features</h5>
 							<p>As we know Road trips will focus on all the small things, we provide vehicle as per your choice. In addition, you get a perfect guide who will loading you to some amazing facts and event which you never want to miss.</p>
 							<h5>Special Packages</h5>
@@ -302,11 +302,11 @@
 						<div class="modal-body">
 							<p>The pristine beaches, opulently beautiful landscape, unique topography can azure water undoubtedly calls for a perfect weekend gateway. Polatok will help you to enjoy roaring waves and wrath of the sun.</p>
 							<h5>Places To Go</h5>
-							<p>Here is a list of beaches which you’ll love to go.
+							<p>Here is a list of beaches which youâ€™ll love to go.
 							<ol type="1"><li>Bakkhali</li><li>Tajpur</li><li>Shankarpur</li><li>Puri</li><li>Digha</li></ol>
 							...and much more</p>
 							<h5>Services</h5>
-							<p>Polatok will help you at your every step. Avail great discounts to every travel pack and customize your tour. Add offbeat attraction, chose local cuisines’, local activities and lots more.</p>
+							<p>Polatok will help you at your every step. Avail great discounts to every travel pack and customize your tour. Add offbeat attraction, chose local cuisinesâ€™, local activities and lots more.</p>
 							<p>Our Service,Your Trust!</p>
 						</div>
 						<div class="modal-footer">
@@ -378,7 +378,7 @@
 						<div class="modal-body">
 							<p>Are you interested to explore the core area of West Bengal? Polatok will be your partner in every possible way. We offer places where you will have local foods along with famous seasonal dishes. Also you will enjoy the beauty and feel rich diversity of local rituals will take you to many different rides of pleasure.</p>
 							<h5>You'll Enjoy With Us</h5>
-							<p>Polatok will help you to experience the life of unique places of West Bengal. As we offer “IlisUtsav” at Sundarban every year, where you will enjoy delicious cuisines’.Our guidance will help you to make eased relationship with jungle.</p>
+							<p>Polatok will help you to experience the life of unique places of West Bengal. As we offer â€œIlisUtsavâ€� at Sundarban every year, where you will enjoy delicious cuisinesâ€™.Our guidance will help you to make eased relationship with jungle.</p>
 							<h5>What We Provide</h5>
 							<p>You can customize AC/Non AC packages. Even we will provide you vehicle as per your need. Our tour will start from particular place according to your choice come and see Sundarban the way it deserves to be seen.</p>
 						</div>
@@ -409,6 +409,17 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+	<script type="text/javascript">
+	$(document).ready(function () {
+	    $(document).click(function (event) {
+	        var clickover = $(event.target);
+	        var _opened = $(".navbar-collapse").hasClass("show");
+	        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+	            $(".navbar-toggler").click();
+	        }
+	    });
+	});
+	</script>
   </body>
 
 </html>

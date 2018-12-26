@@ -102,6 +102,17 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+	<script type="text/javascript">
+	$(document).ready(function () {
+	    $(document).click(function (event) {
+	        var clickover = $(event.target);
+	        var _opened = $(".navbar-collapse").hasClass("show");
+	        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+	            $(".navbar-toggler").click();
+	        }
+	    });
+	});
+	</script>
   </body>
 
 </html>
