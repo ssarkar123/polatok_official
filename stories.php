@@ -16,6 +16,42 @@
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
 
+<style type="text/css">
+.icon-bar {
+  position: fixed;
+  top: 256px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+</style>
+
   </head>
 
   <body oncontextmenu="return false">
@@ -61,6 +97,11 @@
         <li class="breadcrumb-item active">Travel Stories</li>
       </ol>
 
+		<ul class="icon-bar">
+			<li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/polatok.travel/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+			<li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/polatok.travels/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+
       <!-- Intro Content -->
       <div class="jumbotron">
 		<h3 class="display-3">Page Under Construction</h5>
@@ -96,7 +137,7 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; 2018 | Designed and Maintained by Subhajit Sarkar</p>
-		<p class="m-0 text-center text-white">Follow Us  &nbsp;&nbsp;<i class="fa fa-facebook-official" style="font-size:24px; color:white"></i></a> &nbsp;&nbsp;<i class="fa fa-instagram" style="font-size:24px; color:white"></i></a></p>
+		<!-- <p class="m-0 text-center text-white">Follow Us  &nbsp;&nbsp;<i class="fa fa-facebook-official" style="font-size:24px; color:white"></i></a> &nbsp;&nbsp;<i class="fa fa-instagram" style="font-size:24px; color:white"></i></a></p> -->
 		<p class="m-0 text-center text-white"><i class="fa fa-phone" aria-hidden="true"></i> +91-80172-44033 | +91-70039-20846 | <a href="mailto:polatok.travels@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> polatok.travels@gmail.com</a></p>
       </div>
       <!-- /.container -->
